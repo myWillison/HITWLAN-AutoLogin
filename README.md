@@ -20,6 +20,7 @@ password = '******'
 REM 在当前目录运行python文件，可修改路径
 cd %~sdp0
 ```
-将`cd `后改成`login.py`所在的路径即可
-然后把`login.cmd`移动至`C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp`
-找不到？总之找到`开始菜单 > 程序 > 启动`文件夹放进去就行啦
+将`cd `后改成`login.py`所在的路径即可 
+然后把`login.cmd`移动至`C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp` 
+找不到？ 
+总之找到`开始菜单 > 程序 > 启动`文件夹放进去就行啦
