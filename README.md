@@ -15,12 +15,12 @@ password = '******'
 上网冲浪试试看，是不是认证成功了呢？
 
 ## 开机启动
-用编辑器打开`login.cmd`，找到
+1. 用编辑器打开`login.cmd`，找到
 ```bash
 REM 在当前目录运行python文件，可修改路径
 cd %~sdp0
 ```
-将`cd `后改成`login.py`所在的路径即可  
-然后把`login.cmd`移动至`C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp`  
+将`cd `后的字段改成`login.py`文件所在的路径
+1. 然后把`login.cmd`移动至`C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp`  
 找不到？  
 总之找到`开始菜单 > 程序 > 启动`文件夹放进去就行啦
